@@ -69,6 +69,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Black spacer for two full scrolls at the bottom */}
+      <div className="w-full h-[200vh] bg-black" />
     </div>
   );
 }
