@@ -57,7 +57,7 @@ export default function Home() {
             GAIA
           </h1>
           <h2 className="mb-4 text-3xl font-semibold text-gray-200">
-            Empowering Creators. Evolving Brands.
+            Empowering Creators.  Evolving Brands.
           </h2>
           <p className="mb-8 text-xl text-gray-300 max-w-2xl mx-auto">
             We help digital creators and personal brands scale with strategy, authenticity, and automation.
