@@ -12,6 +12,7 @@ import {
   NavbarButton 
 } from "@/components/ui/resizable-navbar";
 import { Tabs } from "@/components/ui/tabs";
+import Footer from "../components/Footer";
 
 export default function Services() {
   const navItems = [
@@ -22,7 +23,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="relative min-h-[120vh] w-full bg-black scroll-smooth">
+    <div className="relative min-h-[120vh] w-full scroll-smooth">
       <BackgroundBeams className="absolute inset-0 w-full h-full opacity-50" />
       <Navbar>
         <NavBody>
@@ -142,6 +143,7 @@ export default function Services() {
           />
         </div>
       </section>
+      <Footer />
     </div>
   );
 } 
